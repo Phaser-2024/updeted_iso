@@ -8,6 +8,7 @@ import GamePlay from "./scenes/GamePlay";
 import GameOver from "./scenes/GameOver";
 import Intro from "./scenes/Intro";
 import Menu from "./scenes/Menu"
+import Abramo from "./scenes/Abramo"
 //importiamo GameData che contiene i valori globali del gioco
 import { GameData } from "./GameData";
 import UI from "./scenes/UI";
@@ -40,7 +41,8 @@ window.addEventListener("load", () => {
       Intro,
       GamePlay,
       GameOver, 
-      UI
+      UI,
+      Abramo
     ],
     physics: {
       default: "arcade",
