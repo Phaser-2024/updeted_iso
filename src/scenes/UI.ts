@@ -35,8 +35,6 @@ export default class UI extends Phaser.Scene{
         });
 
 
-        console.log(this.changeRoomBox);
-
         this.gamePlay = <GamePlay>this.scene.get("GamePlay");
     }
 
